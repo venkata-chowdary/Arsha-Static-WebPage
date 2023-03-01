@@ -1,0 +1,160 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Ubuntu;
+}
+
+body {
+    background-color: #36517E;
+}
+
+.logo {
+    font-size: 40px;
+    color: whitesmoke;
+    font-weight: 100;
+    margin: 10px 60px;
+    cursor: pointer;
+}
+
+
+/*Navigation bar*/
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    margin: 10px 20px;
+}
+
+nav ul li {
+    list-style-type: none;
+    margin: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: whitesmoke;
+    transition: 0.3s;
+}
+
+nav ul li:hover {
+    color: #0D6EFD;
+    cursor: pointer;
+}
+
+nav button {
+    margin: 15px;
+    padding: 15px 20px;
+    background-color: wh;
+    border-radius: 30px;
+    border: 2px solid black;
+    font-size: 18px;
+    font-weight: 400;
+    color: black;
+    transition: 0.3s;
+}
+
+nav button:hover {
+    color: whitesmoke;
+    background-color: #36517E;
+    border: 2px solid #0D6EFD;
+}
+
+.details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.text-details {
+    width: 40%;
+    margin: auto;
+}
+
+.text-details h1 {
+    font-size: 50px;
+    margin-top: 50px;
+    color: whitesmoke;
+}
+
+.text-details p {
+    font-size: 20px;
+    color: lightgrey;
+    margin-top: 20px;
+}
+
+.text-details button {
+    padding: 15px;
+    margin: 30px;
+    border-radius: 40px;
+    border: 2px solid black;
+    font-size: 18px;
+    font-weight: 400;
+    transition: 0.3s;
+}
+
+.text-details button:hover {
+    color: whitesmoke;
+    background-color: #36517E;
+    border: 2px solid #0D6EFD;
+}
+
+.inner-details {
+    display: flex;
+    align-items: center;
+}
+
+.watch-video {
+    margin: 20px;
+}
+
+
+/*Footer*/
+
+footer {
+    background-color: #ced4da;
+}
+
+.client-details {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.client-details li {
+    list-style-type: none;
+    margin: 20px 0 10px;
+}
+
+.client-details li img {
+    transition: 0.5s;
+}
+
+.client-details li img:hover {
+    width: 110px;
+    margin: 5px;
+}
+
+footer ul {
+    background-color: #dee2e6;
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+
+footer ul li {
+    list-style-type: none;
+    color: #36517E;
+    padding: 20px;
+}
+
+footer ul li a {
+    transition: 0.3s;
+}
+
+footer ul li a:hover {
+    font-size: 20px;
+}
